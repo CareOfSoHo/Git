@@ -130,6 +130,7 @@ namespace Git
                     break;
 
                     //Console.WriteLine("Personal sparad");
+                    run = false;
                 }
             }
 
@@ -146,7 +147,7 @@ namespace Git
                     {
 
                         Console.WriteLine("\n\t********************");
-                        Console.WriteLine("\n\t " + item + "\n");
+                        Console.WriteLine("\n\t " + item.firstName +  " " + item.lastName + " tjänar " + item.salary + "kr i månaden \n");
                     }
                 }
             }
